@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://aman-patel-1030.github.io/unstop_clone/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="imgfiles/css2" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="imgfiles/css2(1)" rel="stylesheet">
+    <link href="imgfiles/css2(2)" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="imgfiles/font-awesome.min.css">
+    <style>
+        
+        
+        .navbar{
+            background-color:white;
+            margin-right: 300px;
+        }
+        .navbar-brand{
+            font-family: 'Rubik', sans-serif;
+            margin:3px;
+            float: left;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            font-family: 'sono','sans-serif';
+            float:left;
+            color: rgb(10,76,175);
+            list-style: none;
+            padding:10px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            margin-left: 40px;
+            color: rgb(14, 75, 166);
+        }
+        .navbar li a:hover{
+            color:rgba(117, 106, 67, 0.449);
+        }
+        .search{
+            float: right;
+            color: rgba(220, 214, 289, 0.974);
+            margin-left: 40px;
+            position:absolute;
+        }
+        .navbar input{
+            margin-left: 984px;
+            margin-top: 1px;
+            position: absolute;
+            border:none;
+        }
+        .navbar input:visited{
+            border: none;
+        }
+        .navbar input:hover{
+            border: none;
+        }
+        .box{
+            margin-top: 6px;
+            position: absolute;
+            margin-left: 941px;
+            width: 200px;
+            height: 3px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border: 3px solid rgb(10,76,175);
+        }
+        .btn1{
+            background-color:rgb(56, 127, 233);
+            cursor: pointer;
+            position: absolute;
+            width: 100px;
+            height: 30px;
+            border: none;
+            border-radius: 20px;
+            margin-left: 1300px;
+            margin-top: -65px;
+        }
+        .btn1:hover{
+            border: 3px solid rgb(10,76,175));
+        }
+        .btn2{
+            background-color: rgb(56, 127, 233);
+            position: absolute;
+            width: 100px;
+            height: 30px;
+            border: none;
+            border-radius: 20px;
+            margin-left: 1407px;
+            margin-top: -65px;
+            cursor: pointer;
+        }
+        .btn2:hover{
+            border: 3px solidrgb(10,76,175);
+            
+        }
+
+        .connect{
+            font-family: 'Roboto', sans-serif;
+            margin:56px;
+            font-size: 77px;
+            color: rgb(10, 76, 175);
+        }
+        .text{
+            font-family: 'Roboto', sans-serif;
+            font-size: 21px;
+            margin-left: 55px;
+            color: rgb(10, 76, 175);
+            margin-bottom: 260px;
+            margin-right: 400px;
+        }
+        
+        .industry{
+            font-family: 'Roboto', sans-serif;
+            margin-top: 20px;
+            margin-left: 23px;
+            font-size: 23px;
+            color: rgb(10, 76, 175);
+        }
+        .trust{
+            font-family: 'Roboto', sans-serif;
+            margin-left: 23px;
+            font-size: 33px;
+            font-weight: bold;
+            color: rgb(10, 76, 175);
+            
+        }
+        .explore{
+            font-family: 'Roboto', sans-serif;
+            margin-left: 23px;
+            font-weight: 300px ;
+            font-size:45px ;
+            color: rgb(10, 76, 175);
+        }
+        .participate{
+            font-family: 'Roboto', sans-serif;
+            padding-top: 4px;
+            margin-left: 23px;
+            color: rgb(10, 76, 175);
+            margin-bottom: 30px;
+        }
+        .get{
+            font-family: 'Roboto', sans-serif;
+            margin-top: 22px;
+            margin-left: 23px;
+            font-weight: 300px ;
+            font-size:45px ;
+            color: rgb(10, 76, 175);
+            margin-bottom: 3px;
+        }
+        .work{
+            font-family: 'Roboto', sans-serif;
+            padding-top: 4px;
+            margin-left: 23px;
+            color: rgb(10, 76, 175);
+            margin-bottom: 44px;
+            
+        }
+        .last1,.last2,.last3{
+            font-family: 'Roboto', sans-serif;
+            text-align: left;  
+            text-align:center ; 
+            
+            color: rgb(10, 76, 175);
+        }
+        .centre{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 10%;
+
+        }
+       .row{
+        float:left;
+        align-items: flex-end;
+       }
+       .store{
+        height:auto;
+        width: 100%;
+       }
+       .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 210px;
+    position: absolute;
+    margin-left: 821px;
+    margin-top: -680px;
+    }
+
+
+   .parent img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 40px;   
+   }
+
+
+.firm{
+    margin-bottom: 33px;
+    align-self:flex-start;
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 40px;
+grid-row-gap: 0px;
+}
+ 
+
+
+.aboveexplore {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 10px;
+height: 300px;
+width: 500px;
+margin-bottom: 2000px;
+}
+
+
+.aboveexplore img{
+    height: 300px;
+    width: 400px;
+    align-self: center;
+    margin-right: 83px;
+}
+
+
+
+.belowexplore{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 10px;
+height: 300px;
+width: 500px;
+}
+
+
+
+.belowexplore img{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 34px;
+}
+.gethired{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 10px;
+height: 300px;
+margin-bottom: 73px;
+width: 500px;
+}
+
+
+     .gethired img{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 33px;
+     }
+
+
+       .aboveexplore{
+        margin-top: 23px;
+        margin-bottom: 23px;
+       }
+
+
+
+.class{
+    position:relative;
+    text-align: centre;
+    color: black;
+}
+
+       
+       
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <a class="navbar-brand  " href="https://aman-patel-1030.github.io/unstop_clone/#">
+                <img style="margin-left: 160px; margin-top: 0px; " src="imgfiles/unstop-logo.svg" alt="" srcset="" height="50px">
+            </a>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imgfiles/3068327.png" alt="" srcset="" width="20" height="20"><br><a href="https://aman-patel-1030.github.io/unstop_clone/#">Learn</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imgfiles/3138297.png" alt="" width="20" height="20"><br><a href="https://aman-patel-1030.github.io/unstop_clone/#">Practise</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imgfiles/900772.png" alt="" width="20" height="20"><br><a href="https://aman-patel-1030.github.io/unstop_clone/#">Compete</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imgfiles/900553.png" alt="" width="20" height="20"><br><a href="https://aman-patel-1030.github.io/unstop_clone/#">Mentorship</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imgfiles/639394.png" alt="" width="20" height="20"><br><a href="https://aman-patel-1030.github.io/unstop_clone/#">Jobs</a></li>
+            <div class="search">
+                <div class="box">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <br>
+                <input type="text" id="" placeholder=" Search Oppurtunities">
+            </div>
+        </ul>
+        <button class="btn1">Host</button>
+        <button class="btn2">login</button>
+    </nav>
+    <hr width="100%" size="2" color="lightgrey" noshade="">
+    <header>
+        
+
+
+<div class="connect">Connecting<br><b> Talent,Colleges, <br> Recruiters</b></div>
+
+<div class="text">Explore opportunities<br> from across the globe to<br> learn ,showcase skills, gain CV points <br>&amp; get hired by your dream company.</div>
+<div class="parent">
+    <img src="imgfiles/hm.png">
+<img src="imgfiles/hp.png"> 
+<img src="imgfiles/hmt.png"> 
+<img src="imgfiles/hc.png"> 
+<img src="imgfiles/hj.png"> 
+<img src="imgfiles/home-hero-blogs.png">
+</div>
+ <hr color="grey">
+
+<div class="industry">Industry veterans 
+</div>
+<div class="trust"><b>trust us :</b></div>
+<div class="firm" id="box2">
+<img src="imgfiles/5f71b31560f72_Acc_Logo_Black_Purple_RGB.png">
+
+<img src="imgfiles/5c7525a114f63_icici.png">
+<img src="imgfiles/63e0f796d74c0_uber.png">
+<img src="imgfiles/5c7a83fcaf7f9_tata-group.png">
+<img src="imgfiles/5c7a7bebf06cc_aditya.png">
+<img src="imgfiles/607e6f759cd8d_amazon.png">
+<img src="imgfiles/5c7d0d3c318e3_Airtel.png">
+</div>
+
+<hr color="grey">
+
+
+
+
+<div class="aboveexplore">
+<img src="imgfiles/learn-bg-image.png">
+<img src="imgfiles/practice-bg-image.png">
+<img src="imgfiles/mentorships-bg-new.png" class="aboveexplore"> 
+</div>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="explore">Explore Opportunities</div>
+<div class="participate">Participate ,Showcase Skills &amp; Gain CV Points through online &amp; offline opportunities of your interest &amp; make your mark!</div>
+<div class="belowexplore">
+<img src="imgfiles/student.png">
+<img src="imgfiles/63d112f8a025d_professional.png">
+<img src="imgfiles/63da479e86649_teams_new.png">
+<img src="imgfiles/63da47fe2c821_solo_new.png">
+</div>
+<br>
+<br>
+
+<div class="get">Get Hired</div>
+<div class="work">Work with your dream companies by applying to hiring challenges and full-time &amp; part-time jobs/internships.</div>
+<div class="gethired">
+<img src="imgfiles/job.png">
+<img src="imgfiles/internship.png">
+<img src="imgfiles/hiring-challenges.png">
+<img src="imgfiles/paid-internship.png">
+</div>
+
+
+
+
+<img src="imgfiles/63db3ac0bfbd4_download_app_new.png" class="store">
+
+<img src="imgfiles/unstop-logo.svg" class="centre">
+<div class="last1">About us  </div>
+<div class="last2">Contact us</div>
+<div class="last3">Careers</div>
+    </header>
+    
+
+
+</body></html>
